@@ -152,8 +152,8 @@ function isXplayer() {
 }
 
 function isYplayer() {
-  let inputPlayer = prompt("Имя игрока за Y");
-  return inputPlayer ? inputPlayer : "Y";
+  let inputPlayer = prompt("Имя игрока за O");
+  return inputPlayer ? inputPlayer : "O";
 }
 
 function recolorButtonsBack() {
